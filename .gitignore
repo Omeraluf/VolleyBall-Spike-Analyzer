@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+
+# Uploads (videos can be large)
+backend/uploads/
+
+# OS / Editor
+.vscode/
+.DS_Store
+
+# Logs
+*.log
