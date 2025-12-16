@@ -21,6 +21,9 @@ class AnalysisMetrics(BaseModel):
     sample_every_n: int | None = None
     duration_sec: float | None = None
 
+    detected_pose_frames: int | None = None
+
+
 
 class AnalysisResponse(BaseModel):
     overall_score: float
