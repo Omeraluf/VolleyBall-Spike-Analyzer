@@ -15,3 +15,6 @@ backend/uploads/
 
 # Logs
 *.log
+
+# Debug
+backend/debug
